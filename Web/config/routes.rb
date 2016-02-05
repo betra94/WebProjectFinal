@@ -1,6 +1,15 @@
 Rails.application.routes.draw do
-  get 'control/user'
+  get 'newimage/image'
 
+  get 'contact_us/contact'
+
+  get 'about_us/about'
+
+  get 'homepage/home'
+
+  #get 'control/user'
+ # get 'control/Homepage'
+  match ':controller(/:action(/:id))', :via=>:get
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
