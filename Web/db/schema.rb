@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 20160206124043) do
 
   create_table "users", force: :cascade do |t|
     t.string   "user_name",  limit: 255
-    t.string   "comment",    limit: 255
+    t.text     "comment",    limit: 65535
     t.datetime "created_at"
     t.datetime "updated_at"
   end
