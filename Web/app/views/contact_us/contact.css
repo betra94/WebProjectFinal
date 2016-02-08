@@ -1,0 +1,33 @@
+h1 {
+	color: blue;
+	margin-left: 40%;
+}
+
+h2{
+	color:green;
+	font-size: 150%;
+}
+h3{
+	font-size: 130%;
+	color: black;
+	font-style: oblique;
+	
+}
+h4{
+	font-size: 130%;
+	color: black;
+	font-style: oblique;
+}
+h5{
+	font-size: 130%;
+	color: black;
+	font-style: oblique;
+}
+p {
+	font-size: 130%;
+	color: black;
+	font-style: oblique;
+}
+*{
+	background-color: #24748c;
+}
