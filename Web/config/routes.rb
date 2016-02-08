@@ -16,8 +16,7 @@ Rails.application.routes.draw do
 
   get 'homepage/home'
 
-  #get 'control/user'
- # get 'control/Homepage'
+
   match ':controller(/:action(/:id))', :via=>:get
 
 #=======
