@@ -9,8 +9,22 @@
 # And be sure to use new-style password hashing:
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
 #
+<<<<<<< HEAD
+#default: &default
+ # adapter: mysql2
+ # encoding: utf8
+ # pool: 5
+  #username: root
+  #password: cse2017
+  #socket: /var/run/mysqld/mysqld.sock
 
 development:
+  #<<: *default
+  database: Web_development
+=======
+
+development:
+>>>>>>> 3c0d972a1eabcfffa567f71e16b0f99a7294b6f8
   adapter: mysql2
   encoding: utf8
   database: Site_development
@@ -21,11 +35,24 @@ development:
 
   
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 3c0d972a1eabcfffa567f71e16b0f99a7294b6f8
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
+<<<<<<< HEAD
+  #<<: *default
+  database: Web_test
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  username: root
+  password: #cse2017
+  socket: /var/run/mysqld/mysqld.sock
+=======
   adapter: mysql2
   encoding: utf8
   database: Site_test
@@ -35,6 +62,7 @@ test:
   socket: /run/mysqld/mysqld.sock
 
 
+>>>>>>> 3c0d972a1eabcfffa567f71e16b0f99a7294b6f8
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -56,6 +84,16 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
+<<<<<<< HEAD
+ # <<: *default
+  database: Web_production
+  username: Web
+  password: #<%= ENV['WEB_DATABASE_PASSWORD'] %>
+  dapter: mysql2
+  encoding: utf8
+  pool: 5
+  socket: /var/run/mysqld/mysqld.sock
+=======
   adapter: mysql2
   encoding: utf8
   database: Site_prooduction
@@ -63,4 +101,5 @@ production:
   username: Site
   password: 
   socket: /run/mysqld/mysqld.sock
+>>>>>>> 3c0d972a1eabcfffa567f71e16b0f99a7294b6f8
 

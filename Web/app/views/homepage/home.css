@@ -5,7 +5,24 @@ h1 {
 p {
 	font-size: 30px;
 }
+.toolbar{
+	width: 100%;
+	display: flex;
+	background-color: #6f24d4;
+}
+.home{
+	width: 30%;
+	background-color: yellow;
+}
+.about{
+	width: 30%;
+	background-color: green;
+}
+.contact{
+	width: 30%;
+	background-color: #6f24c4;
+}
 
 *{
-	background-color: #24748c;
+	background-color: #555;
 }

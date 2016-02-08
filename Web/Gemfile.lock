@@ -55,7 +55,7 @@ GEM
     mime-types (2.99)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
-    mysql2 (0.3.18)
+    mysql2 (0.3.20)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     rack (1.6.4)
@@ -114,7 +114,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  mysql2 (= 0.3.18)
+  mysql2 (~> 0.3.18)
   rails (= 4.2.4)
   sdoc (~> 0.4.0)
   spring
