@@ -1,15 +1,15 @@
 class HomepageController < ApplicationController
 	layout false
-  def homepage
-  	render('home')
+  def home
+  	redirect_to (:controller => 'homepage', :action => 'home')
   end
 
-  def about_us
-  	ender('about')
+  def about
+  	redirect_to (:controller => 'about_us', :action => 'about')
 
   end
 
-  def contact_us
-  	render('contact')
+  def contact
+  	redirect_to (:controller => 'contact_us', :action => 'contact')
   end
 end
