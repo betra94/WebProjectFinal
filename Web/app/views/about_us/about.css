@@ -1,15 +1,16 @@
 h1 {
-	color: blue;
+	color: #71C671;
+
 	margin-left: 40%;
 }
 p {
 	font-size: 130%;
-	color: black;
+	color: black:;
 	font-style: oblique;
 }
 img {
 	margin-left: 50%;
 }
 *{
-	background-color: #24748c;
+	background-color: #27408B;
 }

@@ -1,10 +1,10 @@
 h1 {
-	color: blue;
+	color: #71C671;
 	margin-left: 40%;
 }
 
 h2{
-	color:green;
+	color:#00FF7F;
 	font-size: 150%;
 }
 h3{
@@ -27,7 +27,13 @@ p {
 	font-size: 130%;
 	color: black;
 	font-style: oblique;
+	margin-left: 30%;
 }
+
+h6{
+		margin-left:40%;
+}
+
 *{
-	background-color: #24748c;
+	background-color: #27408B;
 }
