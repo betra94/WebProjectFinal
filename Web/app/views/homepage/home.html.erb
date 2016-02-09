@@ -1,11 +1,23 @@
 <html>
 <head><link rel="stylesheet" type="text/css" href="home.css"></head>
-<h1>Homepage</h1>
+<h1>Live ALbum</h1>
+<h2>Home Page</h2>
 <div class="toolbar">
 <a href="homepage/home" class="home">Home Page</a>
 <a href="about_us/about" class="about">About us</a>
 <a href="contact_us/contact" class="contact">Contact us</a>
 </div>
-<p>Welcome</p>
-<a class="image" href="file:///home/cse2017/Website/Web/app/views/contact_us/contact.html.erb"><img src="images.jpeg"></a>
+<p>Welcome to our Website !</p>
+<div class="photos" >
+<img src="images.jpeg">
+<img src="index.jpeg">
+<img src="Mickey-Mouse-1.gif">
+</div>
+<form action="/html/tags/html_form_tag_action.cfm" method="post">
+<textarea name="comments" id="comments" style="width:96%;height:90px;padding:2%;font-size:1.2em;background-color:white;font-color: black;">
+Hey... say something!
+</textarea>
+<input type="submit" value="Submit">
+</form>
 </html>
+<!--<a class="image" href="file:///home/cse2017/Website/Web/app/views/contact_us/contact.html.erb"><img src="images.jpeg"></a>-->
