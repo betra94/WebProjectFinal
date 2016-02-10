@@ -7,14 +7,6 @@ h2{
 	color: #71C671;
 	font-size: 30px;
 }
-p {
-	font-size: 30px;
-	color: #00FF7F;
-	font-style: oblique;
-}
-img {
-	margin-left: 30%;
-}
 .toolbar{
 	width: 100%;
 	display: flex;
@@ -54,4 +46,15 @@ a.contact{
 
 *{
 	background-color: #27408B;
+}
+.mickey{
+	margin-top: 100px;
+	margin-left: 30%;
+}
+form{
+	margin-top: 200px;
+}
+input {
+	background-color: #4A708B;
+	color: #00FF7F;
 }
