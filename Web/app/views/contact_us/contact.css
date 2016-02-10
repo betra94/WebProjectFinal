@@ -1,22 +1,11 @@
-<<<<<<< HEAD
 h1{
 	font-family: arial;
 	color: white;
-=======
-h1 {
-	color: #71C671;
-	margin-left: 40%;
->>>>>>> 9d8a3c2255b6bde1036b408abb2ccc5138c0bca1
 }
 h2{
-<<<<<<< HEAD
 	margin-left: 40%;
 	color: #71C671;
 	font-size: 30px;
-=======
-	color:#00FF7F;
-	font-size: 150%;
->>>>>>> 9d8a3c2255b6bde1036b408abb2ccc5138c0bca1
 }
 h3{
 	font-size: 30px;
@@ -35,7 +24,6 @@ p {
 	font-style: oblique;
 	margin-left: 30%;
 }
-<<<<<<< HEAD
 .toolbar{
 	width: 100%;
 	display: flex;
@@ -71,11 +59,6 @@ a.contact{
 	width: 33%;
 	font-size: 25px;
 	background-color: #6f24c4;
-=======
-
-h6{
-		margin-left:40%;
->>>>>>> 9d8a3c2255b6bde1036b408abb2ccc5138c0bca1
 }
 
 *{

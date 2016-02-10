@@ -1,26 +1,16 @@
-<<<<<<< HEAD
 h1{
 	font-family: arial;
 	color: white;
 }
 h2{
-=======
-h1 {
-	color: #71C671;
-
->>>>>>> 9d8a3c2255b6bde1036b408abb2ccc5138c0bca1
 	margin-left: 40%;
 	color: #71C671;
 	font-size: 30px;
 }
 p {
-<<<<<<< HEAD
 	font-size: 30px;
 	color: #00FF7F;
-=======
-	font-size: 130%;
-	color: black:;
->>>>>>> 9d8a3c2255b6bde1036b408abb2ccc5138c0bca1
+
 	font-style: oblique;
 }
 img {
